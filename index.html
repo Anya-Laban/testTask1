@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#" target="_blank" class="header__link">
+            Gmail
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="#" target="_blank" class="header__link">
+            Зображення
+          </a>
+        </li>
+        <li class="header__item">
+          <button 
+            type="button" 
+            class="header__otherButton"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z"/></svg>
+          </button>
+        </li>
+        <li class="header__item">
+          <button 
+            type="button" 
+            class="header__authButton"
+          >
+            Увійти
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h1 class="main__logo" id="logo_container">
+      <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+    </h1>
+
+    <form 
+      class="main__form form"
+    >
+      <div class="form__searchBox">
+        <svg 
+          class="form__icon form__icon_search"
+          xmlns="http://www.w3.org/2000/svg" 
+          height="24px" 
+          viewBox="0 -960 960 960" 
+          width="24px" 
+          fill="#e3e3e3"
+        >
+          <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+        </svg>
+
+        <input 
+          type="search" 
+          name="q" 
+          class="form__input" 
+          placeholder="Шукати в Google..." 
+          required
+        >
+
+        <button type="button" class="form__searchButton">
+          <svg 
+          class="form__icon"
+          xmlns="http://www.w3.org/2000/svg" 
+          height="24px" 
+          viewBox="0 -960 960 960" 
+          width="24px" 
+          fill="#e3e3e3"
+        >
+          <path d="M160-200q-33 0-56.5-23.5T80-280v-400q0-33 23.5-56.5T160-760h640q33 0 56.5 23.5T880-680v400q0 33-23.5 56.5T800-200H160Zm0-80h640v-400H160v400Zm160-40h320v-80H320v80ZM200-440h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80ZM200-560h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80ZM160-280v-400 400Z"/>
+          </svg>
+        </button>
+
+        <button type="button" class="form__searchButton">
+          <svg 
+          class="form__icon"
+          xmlns="http://www.w3.org/2000/svg" 
+          height="24px" 
+          viewBox="0 -960 960 960" 
+          width="24px" 
+          fill="#e3e3e3"
+        >
+          <path d="M480-400q-50 0-85-35t-35-85v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q0 50-35 85t-85 35Zm0-240Zm-40 520v-123q-104-14-172-93t-68-184h80q0 83 58.5 141.5T480-320q83 0 141.5-58.5T680-520h80q0 105-68 184t-172 93v123h-80Zm40-360q17 0 28.5-11.5T520-520v-240q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760v240q0 17 11.5 28.5T480-480Z"/>
+          </svg>
+        </button>
+
+        <button type="button" class="form__searchButton">
+          <svg 
+          class="form__icon" 
+          xmlns="http://www.w3.org/2000/svg" 
+          height="24px" 
+          viewBox="0 -960 960 960" 
+          width="24px" 
+          fill="#e3e3e3"
+        >
+          <path d="M440-440ZM120-120q-33 0-56.5-23.5T40-200v-480q0-33 23.5-56.5T120-760h126l74-80h240v80H355l-73 80H120v480h640v-360h80v360q0 33-23.5 56.5T760-120H120Zm640-560v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80ZM440-260q75 0 127.5-52.5T620-440q0-75-52.5-127.5T440-620q-75 0-127.5 52.5T260-440q0 75 52.5 127.5T440-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Z"/>
+          </svg>
+        </button>
+      </div>
+    
+
+      <div class="form__buttons">
+        <button 
+          class="form__button" 
+          type="submit" 
+          value="Пошук Google"
+        >
+          Пошук Google
+        </button>
+        <button 
+          class="form__button"
+          id="btn_lucky"
+          type="button"
+        >
+          Мені пощастить
+        </button>
+      </div>
+    </form>
+
+    <p class="main__language"> 
+      Мова Google: 
+      <a href="#">English</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__contry">Україна</p>
+    
+    <div class="footer__line"></div>
+    <div class="footer__linksBlock">
+      <ul class="footer__list">
+        <li><a href="#">Про Google</a></li>
+        <li><a href="#">Реклама</a></li>
+        <li><a href="#">Для бізнесу</a></li>
+        <li><a href="#">Як працює Пошук</a></li>
+      </ul>
+      
+      <ul class="footer__list">
+        <li><a href="#">Конфіденційність</a></li>
+        <li><a href="#">Умови</a></li>
+        <li><a href="#">Налаштування</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./code.js"></script>
+</body>
+</html>
